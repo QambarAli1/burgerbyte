@@ -1,0 +1,77 @@
+body{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.navbar-burger{
+    background-image: url('images/bgheader.jpg');
+    width: 100% !important;
+    height: auto;
+}
+.exp-del{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-bur li{
+    /* width: 510px;
+    color: wheat !important;
+    position: relative;
+    z-index: 1; */
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-bur{
+    margin-left: 62%;
+}
+.tst-of-burg{
+    height: auto;
+    padding: 2px;
+    border: 1px dashed black;
+}
+.sell img{
+    margin-top: -140px;
+}
+.mostpopularburger{
+    background-image: url('images/burg1.jpg');
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 400px;
+}
+.morefunmoretaste{
+    margin: 5px;
+    background-image: url('images/birg2.jpg');
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200px;
+
+}
+.freshandchill{
+    margin: 5px;
+    background-image: url('images/burg3.jpg');
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-bur{
+        margin-left: 0px !important;
+
+    }
+    .navbar-bur li{
+        font-size: 15px;
+        padding: 5px;
+    }
+    
+.cycle-and-no{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cycle-and-no div{
+    width: 500px !important;
+    padding: 5px;
+}
+}
