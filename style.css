@@ -12,7 +12,6 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
-
 .navbar-bur{
     margin-left: 62%;
 }
@@ -94,12 +93,11 @@ body{
 }
 .card{
     padding: 10px;
-    /* border: 2px solid black !important; */
     margin: 10px;
     box-shadow: 10px 10px 5px rgb(93, 93, 100);
 }
 .discoverupevents{
-    width: 40%;
+    width: 45%;
 }
 .discoverupevents p{
     width: 80%;
@@ -107,13 +105,15 @@ body{
     font-size: 20px;
 }
 .upeventpic{
-    width: 40%;
+    width: 640px;
+}
+.upeventpic img{
+    max-width: 640px;
+    height: 440px;
 }
 .upevents-div{
-    /* border: 2px solid black; */
-    padding: 5px;
     margin: 20px;
-    width: 83%;
+    width: 67%;
     justify-content: center;
     box-shadow: 20px 20px 10px rgb(194, 188, 188);
     display: flex;
@@ -130,7 +130,6 @@ body{
         font-size: 15px;
         padding: 5px;
     }
-    
     .cycle-and-no{
         display: flex;
         flex-direction: row;
@@ -151,7 +150,6 @@ body{
         width: 100% !important;
         height: 300px;
         border-radius: 10px 10px;
-    
     }
     .rowsofburg{
         width: 100%;
@@ -169,29 +167,22 @@ body{
         border-radius: 10px 10px;
 
     }
-    
-.discoverupevents{
-    width: 100%;
-    /* padding: 10px; */
-
-}
-.discoverupevents p{
-    width: 80%;
-    line-height: 30px;
-    font-size: 20px;
-}
-.upeventpic{
-    width: 100%;
-}
-.upevents-div{
-    /* border: 2px solid black; */
-    /* padding: 5px; */
-    margin: 20px;
-    width: 100%;
-    justify-content: center;
-    /* box-shadow: 10px 10px 5px rgb(46, 44, 44); */
-    display: inline-block;
-    margin-top: 50px;
-
-}
+    .discoverupevents{
+        width: 100%;
+    }
+    .discoverupevents p{    
+        width: 80%;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .upeventpic{
+        width: 100%;
+    }
+    .upevents-div{
+        margin: 20px;
+        width: 100%;
+        justify-content: center;
+        display: inline-block;
+        margin-top: 50px;
+    }
 }
